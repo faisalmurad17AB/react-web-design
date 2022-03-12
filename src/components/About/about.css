@@ -1,0 +1,24 @@
+.main-services {
+    margin-top: 40px;
+    padding: 25px 20px;
+    background-color: #fff;
+    box-shadow: rgba(33, 33, 33, .06) 0 4px 24px 5px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.main-services:hover {
+    margin-top: 25px;
+    transition: all 1s;
+}
+
+.main-services i {
+    display: block;
+    font-size: 46px;
+    margin-bottom: 5px;
+}
+
+.main-services p {
+    padding: 0 10px;
+}

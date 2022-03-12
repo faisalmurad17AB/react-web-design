@@ -1,0 +1,102 @@
+.home-section {
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-color: #f5f7fc;
+}
+
+.home-section h1 {
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #212121;
+}
+
+.home-section p.hero-text {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #454545;
+}
+
+/* -----  Newsletter ----- */
+.newsletter_form_box {
+    margin: 0 auto;
+    max-width: 728px;
+}
+
+#newsletter-form {
+    width: 100%;
+    max-width: 500px;
+    -webkit-border-radius: 5px 5px;
+    border-radius: 5px 5px;
+    background-color: #fff;
+}
+
+#newsletter-form #email_newsletter {
+    background: url('../images/input-envelope.png') no-repeat 15px 20px;
+    width: 75%;
+    max-width: 350px;
+    height: 59px;
+    padding: 0 20px 0 45px;
+    border: none !important;
+    background-color: #fff;
+    -webkit-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    color: #454545;
+    font-size: 17px;
+    margin: 0 !important
+}
+
+#newsletter-form #submit-button-newsletter {
+    width: 113px;
+    height: 59px;
+    background: #e52f37;
+    border: none;
+    color: #fff;
+    display: inline;
+    margin: 0 !important;
+    -webkit-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    vertical-align: top;
+    transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+}
+
+#newsletter-form #submit-button-newsletter:hover {
+    cursor: pointer;
+    background-color: blue;
+    transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+}
+
+.newsletter_success_box {
+    font-size: 18px;
+    font-style: italic;
+    color: #27b36a;
+    margin: 5px 0;
+}
+
+p.newsletter-form-terms {
+    margin: 15px 0 5px 0;
+    font-size: 14px;
+    color: #878787;
+    text-shadow: none;
+}
+
+p.newsletter-form-terms span {
+    margin-right: 15px;
+}
+
+p.newsletter-form-terms i {
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 1px;
+    color: #27b36a;
+}

@@ -1,0 +1,43 @@
+.fun-facts-boxs {
+    display: inline-block;
+    width: 19%;
+    padding: 10px 10px;
+}
+
+.fun-facts-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fun-facts-title span {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: #071e55;
+    font-family: 'Nunito', sans-serif;
+}
+
+.fun-facts-box i {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #071e55;
+}
+
+.fun-facts-box.green i {
+    color: #27b36a;
+}
+
+.fun-facts-box.blue i {
+    color: #1e90ff;
+}
+
+.fun-facts-box.red i {
+    color: #fc6a3f;
+}
+
+.fun-facts-box.yellow i {
+    color: #fe9c24;
+}

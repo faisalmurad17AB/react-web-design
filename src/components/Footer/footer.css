@@ -1,0 +1,81 @@
+.footer {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding: 40px 0 20px 0;
+    background-color: #f5f7fc;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: #454545;
+}
+
+.footer p>a {
+    font-size: 17px;
+    color: green;
+    text-decoration: none;
+}
+
+.footer p>a:hover {
+    color: #0b5ed7;
+    text-decoration: underline;
+}
+
+.template-name {
+    font-weight: bold;
+}
+
+
+/* Footer Social Icons */
+
+ul.footer_social {
+    float: right;
+}
+
+ul.footer_social li {
+    display: inline-block;
+    margin: 0;
+    line-height: 100% !important;
+}
+
+ul.footer_social li a i {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0;
+    font-size: 26px !important;
+    line-height: 26px !important;
+    color: #1e90ff;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+ul.footer_social li a.twitter i {
+    color: #4099ff;
+}
+
+ul.footer_social li a i.fa-pinterest {
+    color: #C92228;
+}
+
+ul.footer_social li a.instagram i {
+    color: #3b5998;
+}
+
+ul.footer_social li a.whatsapp i {
+    color: #4FCE5D;
+}
+
+ul.footer_social li a.google i {
+    color: #4285f4;
+}
+
+ul.footer_social li a.github i {
+    color: #ea4c89;
+}
+
+ul.footer_social li a i:hover {
+    opacity: 0.59;
+}
